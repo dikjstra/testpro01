@@ -9,7 +9,7 @@ public class ArrayTest {
         MyTools mt = new MyTools();
         mt.BubbleSort(arr);
         Scanner scanner = new Scanner(System.in);//.var 自动分配变量名
-        System.out.println("\n------排序后-------");
+        System.out.println("\n------排序之后-------");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
